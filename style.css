@@ -1,0 +1,57 @@
+.blog-post {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family:
+    "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #333;
+}
+
+.post-title {
+  font-size: clamp(24px, 5vw, 48px);
+  letter-spacing: clamp(1px, 0.5vw, 3px);
+  font-weight: 800;
+  text-align: center;
+}
+
+.post-meta {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.post-lead {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.post-body {
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.main-nav {
+  background-color: #f5f5f5;
+  padding: 15px 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  letter-spacing: 0.15em; /* 文字間隔 */
+  font-size: 14px;
+  transition: all 0.3s ease; /* ホバーアニメーション */
+}
+
+.main-nav a:hover {
+  color: #00bcd4;
+  letter-spacing: 0.25em; /* ホバーで広がる */
+}
